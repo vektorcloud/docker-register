@@ -1,4 +1,4 @@
-FROM vektorlab/python2:latest
+FROM quay.io/vektorcloud/python2:latest
 
 ENV DOCKER_HOST unix:///var/run/docker.sock
 ENV DOCKERGEN_VERSION 0.6.0
