@@ -1,5 +1,7 @@
 # docker-register
 
+![circleci][circleci]
+
 A simple etcd service discovery container based on docker-gen. Containers with exactly one port published to the host will be registered in etcd at `/backends/<image_name>/<image_tag>/<image_id>`, e.g. `/backends/redis/latest/2f2ffba3ddf1`
 
 # Usage
@@ -12,3 +14,5 @@ docker run -d \
 ```
 
 An optional DOCKER_HOST variable can be provided as well(defaults to unix://var/run/docker.sock)
+
+[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/docker-register.svg "docker-register"
