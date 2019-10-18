@@ -15,4 +15,4 @@ docker run -d \
 
 An optional DOCKER_HOST variable can be provided as well(defaults to unix://var/run/docker.sock)
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/docker-register.svg "docker-register"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/docker-register?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "docker-register"
